@@ -1,5 +1,4 @@
 import { CardMovie } from "../CardMovie";
-import { useEffect, useState } from "react";
 import { useMovies } from "../../Hooks/useMovies";
 import { ButtonOutline } from "../Buttons";
 import Api from "../../services/Api";
@@ -10,10 +9,6 @@ export function ListMovies(props){
     const {list: moviesToList, viewMore} = props;
     const { movies, setMovies, lastSearch, setLastSearch } = useMovies();
 
-    useEffect(()=>{
-        console.log(lastSearch);
-    },[lastSearch]);
-    
     function handleClickViewMore(){
         let nextPage = lastSearch.page + 1;
         if( nextPage <= lastSearch.totalPages)

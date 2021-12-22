@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import { useHistory } from "react-router-dom";
 import { useNavigation } from "../../Hooks/useNavigation";
 
 import {FavoriteBorderOutlined, HomeOutlined} from "@material-ui/icons";

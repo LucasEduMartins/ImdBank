@@ -1,17 +1,16 @@
 import { useEffect, useState } from "react";
 import { Favorite, FavoriteBorderOutlined } from "@material-ui/icons";
 import { useNavigation } from "../../Hooks/useNavigation";
+import { useMovies } from "../../Hooks/useMovies";
 
 import DefaultMovieImg from "../../assets/default-movie-img.png";
 import Api from "../../services/Api";
 
-
 import "./styles.scss";
-import { useMovies } from "../../Hooks/useMovies";
 
 export function CardMovie(props){
     const [hover, setHover] = useState(false);
-    const [movie, setMovie] = useState(props.movie);
+    const [movie] = useState(props.movie);
     const {moviesFavorites,setMoviesFavorites} = useMovies();
     const {history} = useNavigation();
     const [favorite, setFavorite] = useState(false);

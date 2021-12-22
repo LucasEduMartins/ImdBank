@@ -1,0 +1,40 @@
+#menu{
+    flex: 3;
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+        li{
+            list-style: none;
+            display: flex;
+            padding: 0.5em;
+            cursor: pointer;
+            transition: ease-in 0.3s;
+            border-radius: 5px;
+            margin-right: 0.5em;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            gap: 0.3em;
+            color: #d42b2b;
+            font-size: 12pt;
+            
+            &:hover{
+                background-color: #d42b2b;
+                color: white;
+            }
+            
+            &.active{
+                background-color: #d42b2b;
+                color: white;
+            }
+        }
+    }
+
+}

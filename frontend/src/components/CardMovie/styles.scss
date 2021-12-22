@@ -1,0 +1,63 @@
+.movie{
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+
+    .movie-poster{  
+        max-width: 15em;
+        height: 20em;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+
+        }
+    }
+    
+    .movie-content{
+        cursor: pointer;
+
+        .favorite-icon{
+            position: absolute;
+            top: -3em;
+            right: 0;
+            margin: 1em;
+            transition: ease-in 0.3s;
+            
+            &.active{
+                color: #d42b2b;        
+            }
+        }
+
+        .content{
+            position: absolute;
+            bottom: -5em;
+            left: 0;
+            padding: 1em;
+            transition: ease-in 0.3s;
+
+        }
+        
+        &.active{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: #000000a1;
+            color: white;
+
+            .favorite-icon{
+                top: 0;
+
+            }
+
+            .content{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding: 1em;
+            }
+        }
+    }
+}

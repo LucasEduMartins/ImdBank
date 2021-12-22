@@ -1,0 +1,20 @@
+.button-outline{
+    border: 1.5px solid #d42b2b;
+    border-radius: 5px;
+    color: #d42b2b;
+    background-color: white;
+    padding: 2px 10px;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        color: white ;
+        background-color: #d42b2b;
+    }
+}

@@ -1,0 +1,17 @@
+#list-movies{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5em;
+
+    @media screen {
+        @media (min-width:320px) {
+            justify-content: center;
+        }
+        @media (min-width:768px) {
+            justify-content: flex-start;
+        }
+    }
+}

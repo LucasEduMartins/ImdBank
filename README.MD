@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=node&message=framework&color=brightgreen&style=for-the-badge&logo=NODE"/>
+  <img src="https://img.shields.io/static/v1?label=node&message=framework&color=brightgreen&style=for-the-badge&logo=NODEJS"/>
   <img src="https://img.shields.io/static/v1?label=yarn&message=framework&color=blue&style=for-the-badge&logo=YARN"/>
   
   <img src="https://img.shields.io/badge/Node-14.x-brightgreen"/>

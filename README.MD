@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/Node-14.x-brightgreen"/>
    <img src="https://img.shields.io/badge/yarn-1.22.17-blue"/>
 </p>
+
 > Status do Projeto: :warning:
 
 ### Tópicos 

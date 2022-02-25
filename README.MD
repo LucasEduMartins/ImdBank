@@ -6,6 +6,10 @@
    <img src="http://img.shields.io/static/v1?label=spring-boot&message=framework&color=RED&style=for-the-badge&logo=SPRING"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Node-14.x-brightgreen"/>
+   <img src="https://img.shields.io/badge/yarn-1.22.17-blue"/>
+</p>
 > Status do Projeto: :warning:
 
 ### Tópicos 
